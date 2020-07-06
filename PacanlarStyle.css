@@ -93,23 +93,23 @@ text-align: center;
         margin-bottom: 5%;
     }
     #menu-tile{
-        background: url(img/Ruka360.jpg);
+        background: url(Img/Ruka360.jpg);
         background-position: center;
     }
     #specials-tile{
       
-        background: url(img/Dengi360.jpg);
+        background: url(Img/Dengi360.jpg);
         background-position: center;
     }
 }
 @media(min-width:992px) and (max-width:1199px){
     #menu-tile{
-        background: url(img/Ruka293.jpg);
+        background: url(Img/Ruka293.jpg);
         background-position: center;
     }
     #specials-tile{
       
-        background: url(img/Dengi293.jpg);
+        background: url(Img/Dengi293.jpg);
         background-position: center;
     }
     #SetWidth{
@@ -126,12 +126,12 @@ text-align: center;
    
     #menu-tile{
     
-        background: url(img/Ruka345.jpg);
+        background: url(Img/Ruka345.jpg);
         background-position: center;
     }
     #specials-tile{
       
-        background: url(img/Dengi345.jpg);
+        background: url(Img/Dengi345.jpg);
         background-position: center;
     }
     .navbar-brand{
@@ -178,12 +178,12 @@ text-align: center;
 }
 @media (max-width: 766px) {
     #menu-tile{
-        background: url(img/Ruka293.jpg);
+        background: url(Img/Ruka293.jpg);
         background-position: center;
     }
     #specials-tile{
       
-        background: url(img/Dengi293.jpg);
+        background: url(Img/Dengi293.jpg);
         background-position: center;
     }
     #menu-tile, #specials-tile{
