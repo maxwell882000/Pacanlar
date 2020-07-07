@@ -82,10 +82,160 @@ text-align: center;
     margin-top: 30px;
     margin-left: 0;
 }
+#img_1 {
+    background: url(img/OlenRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_2{
+    background: url(img/KazahRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_3 {
+    background: url(img/TupoyRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_4{
+    background: url(img/CundiriRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_5 {
+    background: url(img/TimurchikRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_6{
+    background: url(img/IskirtRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_7{
+    background: url(img/KoreanRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_8{
+    background: url(img/baklajanRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_9{
+    background: url(img/PidorRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_10{
+    background: url(img/ZubastiyRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+#img_11{
+    background: url(img/MambedRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+}
+.unique {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+#description {
+text-align: left;
+}
+#link{
+    margin-top: 5%;
+    background-color:#4e454e;
+    text-transform: uppercase;
+    padding: 2em 2.5em;
+}
+#link a{
+    padding: 2em 2.5em;
+    background: rgb(87, 83, 83);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.705) ;
+    box-shadow: inset -5px 2px 5px 0px rgba(112, 107, 107, 0.459);
+}
+#link a:hover{
+    background: rgba(71, 71, 71, 0.541);
+    box-shadow: inset -5px 2px 5px 0px rgba(95, 90, 90, 0.459);
+    color:rgba(255, 255, 255, 0.466) ;
+}
+.unique span{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+    text-transform: uppercase;
+    background-color: black;
+    opacity: 0.7;
+}
+.row hr {
+    width: 90%;
+}
+#box {
+    background: rgb(87, 83, 83);
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#box h2{
+    font-weight: bold;
+}
+#box h4{
+    font-size: 1.4em;
+}
+#box p {
+    font-size: 1.1em;
+    text-align: left;
+}
+#box p span {
+    font-weight: bold;
+}
+#box {
+    position: relative;
+    color:rgba(255, 255, 255, 0.705) ;
+}
+#box #Author {
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+}
+#Download {
+    margin-bottom: 4%;
+    text-align: left;
+}
+#Download a {
+    background: rgb(87, 83, 83);
+    text-decoration: none;
+    padding: 1em 1.5em;
+    color:rgba(255, 255, 255, 0.705) ;
+    box-shadow: inset -5px 2px 5px 0px rgba(112, 107, 107, 0.459);
+}
+#Download a:hover{
+    background: rgba(71, 71, 71, 0.541);
+    box-shadow: inset -5px 2px 5px 0px rgba(95, 90, 90, 0.459);
+    color:rgba(255, 255, 255, 0.466) ;
+}
+#Quotes{
+    position: relative;
+    background: rgb(87, 83, 83);
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#Quotes h1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: center;
+    
+}
 @media (min-width:1200px){
-   
     #SetWidth{
-        background: url(../Pacanlar/Img/Glavnoy1136.jpg) no-repeat;
+        background: url(Img/Glavnoy1136.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
         height: 375px;
@@ -113,7 +263,7 @@ text-align: center;
         background-position: center;
     }
     #SetWidth{
-        background: url(../Pacanlar/Img/Glavnoy936.jpg) no-repeat;
+        background: url(Img/Glavnoy936.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
         height: 375px;
@@ -159,7 +309,7 @@ text-align: center;
         text-align: center;
     }
     #SetWidth{
-        background: url(../Pacanlar/Img/Glavnoy720.jpg) no-repeat;
+        background: url(Img/Glavnoy720.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
         height: 375px;
@@ -177,6 +327,10 @@ text-align: center;
     overflow: hidden;
 }
 @media (max-width: 766px) {
+    .unique {
+        margin-left: auto;
+        margin-right: auto;
+    }
     #menu-tile{
         background: url(Img/Ruka293.jpg);
         background-position: center;
@@ -193,7 +347,7 @@ text-align: center;
         margin-right: auto;
     }
     #SetWidth{   
-        background: url(../Pacanlar/Img/Glavnoy436.jpg) no-repeat;
+        background: url(Img/Glavnoy436.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
         height: 375px;
