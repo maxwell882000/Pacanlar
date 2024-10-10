@@ -1,80 +1,94 @@
-@font-face{
+@font-face {
     font-family: Oxygen;
-        src: url("../../font/Oxygen-Regular.ttf");
+    src: url("../../font/Oxygen-Regular.ttf");
 }
-@font-face{
+
+@font-face {
     font-family: Oxygen;
     font-weight: bold;
-        src: url("../../font/Oxygen-Bold.ttf");
+    src: url("../../font/Oxygen-Bold.ttf");
 }
-@font-face{
+
+@font-face {
     font-family: Oxygen;
     font-weight: lighter;
-        src: url("../../font/Oxygen-Light.ttf");
+    src: url("../../font/Oxygen-Light.ttf");
 }
-body{
+
+body {
     font-size: 16px;
-    color:white;
+    color: white;
     background-color: #4e454e;
     font-family: 'Nunito', sans-serif;
 }
-#header-nav{
+
+#header-nav {
     background-color: #42403c;
     border-radius: 0;
     border: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-top: 25px;
 
 }
-.navbar-brand h1{
+
+.navbar-brand h1 {
     font-family: 'Lora', serif;
-    color:#cdd8c6;
-    font-size:1.5em;
+    color: #cdd8c6;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow:1px 1px 1px #222;
+    text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
+
+.navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-.navbar-brand p  {
-color: #000;
-text-transform: uppercase;
-font-size: .7em;
-margin-top: 15px;
-font-family: 'Nunito', sans-serif;
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+    font-family: 'Nunito', sans-serif;
 }
 
 #nav-list {
     margin-top: 10px;
 }
-#nav-list a{
-color:  #cdd8c6;
-text-align: center;
+
+#nav-list a {
+    color: #cdd8c6;
+    text-align: center;
 }
-#nav-list a:hover{
+
+#nav-list a:hover {
     background: #4e454e;
 }
-#ActiveColor{
+
+#ActiveColor {
     background: #4e454e;
 }
-#nav-list a span{
+
+#nav-list a span {
     font-size: 1.4em
 }
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 0;
     border-radius: 0;
-    padding:2px;
+    padding: 2px;
 }
-.navbar-header button.navbar-toggle{
+
+.navbar-header button.navbar-toggle {
     clear: both;
 }
-#logo-img{
+
+#logo-img {
     background: url(Img/icons8-сжатый-кулак-50.png) no-repeat;
     width: 100px;
     height: 100px;
@@ -86,142 +100,181 @@ text-align: center;
 #img_3 {
     background: url(Img/TupoyRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
-#img_4{
+
+#img_4 {
     background: url(Img/CundiriRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
+
 #img_5 {
     background: url(Img/TimurchikRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
-}
-#img_6{
-    background: url(Img/IskirtRed.jpg);
-    border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
 
-#img_8{
+#img_6 {
+    background: url(Img/IskirtRed.jpg);
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
+}
+
+#img_8 {
     background: url(Img/baklajanRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
-#img_9{
+
+#img_9 {
     background: url(Img/PidorRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
-#img_10{
+
+#img_10 {
     background: url(Img/ZubastiyRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
-#img_11{
+
+#img_11 {
     background: url(Img/MambedRed.jpg);
     border: 3px solid rgba(73, 71, 71, 0.795);
-    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308) ;
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
 }
+
+#img_12 {
+    background: url('Img/Klubnika.png') no-repeat center;
+    background-size: cover;
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
+}
+
+#img_13 {
+    background: url(Img/Riba.png)  no-repeat center;
+    border: 3px solid rgba(73, 71, 71, 0.795);
+    box-shadow: 0px 0px 5px 5px rgba(73, 71, 71, 0.308);
+}
+
 .unique {
     position: relative;
     width: 200px;
     height: 150px;
-    margin-bottom:5%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-  
+
 }
+
 #description {
-text-align: left;
+    text-align: left;
 }
-#link{
+
+#link {
     margin-top: 5%;
-    background-color:#4e454e;
+    background-color: #4e454e;
     text-transform: uppercase;
     padding: 2em 2.5em;
 }
-#link a{
+
+#link a {
     padding: 2em 2.5em;
     background: rgb(87, 83, 83);
     text-decoration: none;
-    color:rgba(255, 255, 255, 0.705) ;
+    color: rgba(255, 255, 255, 0.705);
     box-shadow: inset -5px 2px 5px 0px rgba(112, 107, 107, 0.459);
 }
-#link a:hover{
+
+#link a:hover {
     background: rgba(71, 71, 71, 0.541);
     box-shadow: inset -5px 2px 5px 0px rgba(95, 90, 90, 0.459);
-    color:rgba(255, 255, 255, 0.466) ;
+    color: rgba(255, 255, 255, 0.466);
 }
-.unique span{
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   width: 100%;
+
+.unique span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
     text-transform: uppercase;
     background-color: black;
     opacity: 0.7;
 }
+
 .row hr {
     width: 90%;
 }
+
 #box {
     background: rgb(87, 83, 83);
     box-shadow: 0 1px 5px 1px #cccccc;
 }
-#box h2{
+
+#box h2 {
     font-weight: bold;
 }
-#box h4{
+
+#box h4 {
     font-size: 1.4em;
 }
+
 #box p {
     font-size: 1.1em;
     text-align: left;
 }
+
 #box p span {
     font-weight: bold;
 }
+
 #box {
     position: relative;
-    color:rgba(255, 255, 255, 0.705) ;
+    color: rgba(255, 255, 255, 0.705);
 }
+
 #box #Author {
     position: absolute;
     right: 0;
     margin-right: 5%;
 }
+
 #Download {
     margin-bottom: 4%;
     text-align: left;
 }
+
 #Download a {
     background: rgb(87, 83, 83);
     text-decoration: none;
     padding: 1em 1.5em;
-    color:rgba(255, 255, 255, 0.705) ;
+    color: rgba(255, 255, 255, 0.705);
     box-shadow: inset -5px 2px 5px 0px rgba(112, 107, 107, 0.459);
 }
-#Download a:hover{
+
+#Download a:hover {
     background: rgba(71, 71, 71, 0.541);
     box-shadow: inset -5px 2px 5px 0px rgba(95, 90, 90, 0.459);
-    color:rgba(255, 255, 255, 0.466) ;
+    color: rgba(255, 255, 255, 0.466);
 }
-#Quotes{
+
+#Quotes {
     position: relative;
     background: rgb(87, 83, 83);
     box-shadow: 0 1px 5px 1px #cccccc;
 }
+
 #Quotes h1 {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     text-align: center;
-    
+
 }
-@media (min-width:1200px){
-    #SetWidth{
+
+@media (min-width: 1200px) {
+    #SetWidth {
         background: url(Img/Glavnoy1136.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
@@ -229,27 +282,32 @@ text-align: left;
         width: 100%;
         margin-bottom: 5%;
     }
-    #menu-tile{
+
+    #menu-tile {
         background: url(Img/Ruka360.jpg);
         background-position: center;
     }
-    #specials-tile{
-      
+
+    #specials-tile {
+
         background: url(Img/Dengi360.jpg);
         background-position: center;
     }
 }
-@media(min-width:992px) and (max-width:1199px){
-    #menu-tile{
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #menu-tile {
         background: url(Img/Ruka293.jpg);
         background-position: center;
     }
-    #specials-tile{
-      
+
+    #specials-tile {
+
         background: url(Img/Dengi293.jpg);
         background-position: center;
     }
-    #SetWidth{
+
+    #SetWidth {
         background: url(Img/Glavnoy936.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
@@ -259,43 +317,53 @@ text-align: left;
     }
 
 }
-@media (min-width:767px) and (max-width:991px){
-   
-    #menu-tile{
-    
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+    #menu-tile {
+
         background: url(Img/Ruka345.jpg);
         background-position: center;
     }
-    #specials-tile{
-      
+
+    #specials-tile {
+
         background: url(Img/Dengi345.jpg);
         background-position: center;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         padding-top: 25px;
         height: 80px;
     }
-    .navbar-brand h1{
-      padding-top: 10px;
-      font-size: 5vw;
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
     }
-    .navbar-brand p  {
-    font-size: .6em;
-    margin-top: 12px;
+
+    .navbar-brand p {
+        font-size: .6em;
+        margin-top: 12px;
     }
-    .navbar-brand p img  {
+
+    .navbar-brand p img {
         height: 20px;
-}
-    div.menu-item-photo{
+    }
+
+    div.menu-item-photo {
         margin-right: auto;
     }
+
     .menu-item .menu-item-price {
         text-align: center;
     }
-    .menu-item-title , .menu-item-details{
+
+    .menu-item-title, .menu-item-details {
         text-align: center;
     }
-    #SetWidth{
+
+    #SetWidth {
         background: url(Img/Glavnoy720.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
@@ -304,8 +372,9 @@ text-align: left;
         margin-bottom: 5%;
     }
 }
-#menu-tile, #specials-tile, #map-tile{
-    height:250px;
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
@@ -313,27 +382,32 @@ text-align: left;
     border: 2px solid #5f5458;
     overflow: hidden;
 }
-@media(min-width:462px) and (max-width: 766px) {
+
+@media (min-width: 462px) and (max-width: 766px) {
     .unique {
         margin-left: auto;
         margin-right: auto;
     }
-    #menu-tile{
+
+    #menu-tile {
         background: url(Img/Ruka293.jpg);
         background-position: center;
     }
-    #specials-tile{
-      
+
+    #specials-tile {
+
         background: url(Img/Dengi293.jpg);
         background-position: center;
     }
-    #menu-tile, #specials-tile{
+
+    #menu-tile, #specials-tile {
         width: 293.328px;
         height: 265px;
         margin-left: auto;
         margin-right: auto;
     }
-    #SetWidth{   
+
+    #SetWidth {
         background: url(Img/Glavnoy436.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
@@ -345,29 +419,32 @@ text-align: left;
     }
 }
 
-@media (max-width:461px)
-{
+@media (max-width: 461px) {
 
     .unique {
         margin-left: auto;
         margin-right: auto;
     }
-    #menu-tile{
+
+    #menu-tile {
         background: url(Img/Ruka293.jpg);
         background-position: center;
     }
-    #specials-tile{
-      
+
+    #specials-tile {
+
         background: url(Img/Dengi293.jpg);
         background-position: center;
     }
-    #menu-tile, #specials-tile{
+
+    #menu-tile, #specials-tile {
         width: 293.328px;
         height: 265px;
         margin-left: auto;
         margin-right: auto;
     }
-    #SetWidth{   
+
+    #SetWidth {
         background: url(Img/Glavnoy360.jpg) no-repeat;
         box-shadow: 0 0 50px #474043;
         border: 2px solid #5f5458;
@@ -379,113 +456,132 @@ text-align: left;
     }
 }
 
-.panel-footer section{
+.panel-footer section {
     margin-bottom: 30px;
     text-align: center;
 }
-.panel-footer section:nth-child(3){
+
+.panel-footer section:nth-child(3) {
     margin-bottom: 0;
 }
-.panel-footer section hr{
+
+.panel-footer section hr {
     width: 50%;
 }
-#collapsable-nav a{
+
+#collapsable-nav a {
     font-size: 1.2em;
 }
-#collapsable-nav a span{
+
+#collapsable-nav a span {
     font-size: 1em;
     margin-right: 5px;
 }
 
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
-box-shadow: 0 1px 5px 1px #cccccc;
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#menu-tile span, #specials-tile span, #map-tile span{
+#menu-tile span, #specials-tile span, #map-tile span {
     position: absolute;
     bottom: 0;
-    right:0;
+    right: 0;
     width: 100%;
     text-align: center;
-    font-size:1.6em;
+    font-size: 1.6em;
     text-transform: uppercase;
     background-color: #000;
     color: #fff;
     opacity: .7;
 }
-.panel-footer{
+
+.panel-footer {
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: #222;
     border-top: 0;
 }
+
 .panel-footer div.row {
-    margin-bottom:35px;
+    margin-bottom: 35px;
 }
-#hours ,#address{
-    line-height:2 ;
+
+#hours, #address {
+    line-height: 2;
 }
-#hours >span, #address >span{
-    font-size:1.3em;
+
+#hours > span, #address > span {
+    font-size: 1.3em;
 }
+
 #address p {
-    color:#557c3e;
-    font-size:.8em;
-    line-height:1.8;
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
 }
-#testimonials{
+
+#testimonials {
     font-style: italic;
 }
+
 #testimonials p:nth-child(2) {
- margin-top:25px;
+    margin-top: 25px;
 }
 
 #menu-categories-title + div {
     margin-bottom: 50px;
 }
 
-.menu-item{
+.menu-item {
     margin-bottom: 25px;
 }
-.menu-item hr{
+
+.menu-item hr {
     width: 80%;
 }
- .menu-item-price{
+
+.menu-item-price {
     font-size: 1.1em;
     text-align: right;
     margin-top: -15px;
     margin-right: -15px;
 }
-.menu-item-price span{
+
+.menu-item-price span {
     font-size: .6em;
 }
+
 .menu-item-photo {
     position: relative;
     box-shadow: 0 0 50px #474043;
-     border: 2px solid #5f5458;
+    border: 2px solid #5f5458;
     overflow: hidden;
     padding: 0;
     margin-right: -15px;
     margin-left: auto;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     max-width: 250px;
 }
-.menu-item-photo div{
- position: absolute;
- bottom: 0;
- right: 0;
-width: 30%;
-background-color: #557c3e;
-text-align:center;
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    background-color: #557c3e;
+    text-align: center;
 }
+
 .menu-item-description {
     padding-right: 30px;
 }
-h3.menu-item-title{
-    margin:0 0 10px ;
+
+h3.menu-item-title {
+    margin: 0 0 10px;
 }
-.menu-item-details{
+
+.menu-item-details {
     font-size: .9em;
     font-style: italic;
 }
